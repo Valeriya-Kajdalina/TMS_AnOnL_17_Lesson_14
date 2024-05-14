@@ -1,3 +1,8 @@
+//Создать три потока Т1, Т2 и Т3
+Реализовать выполнение поток в последовательности Т3 -> Т2 -> Т1
+(используя метод join)
+
+
 class CustomThread extends Thread {
     private String threadName;
 
